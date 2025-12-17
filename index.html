@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Памʼять Бородянки — Меморіал Шевченка</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- TOP NAV -->
+  <header class="top-nav">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-mark"></span>
+        <span class="logo-text">Memory<span>UA</span></span>
+      </div>
+
+      <div class="lang-switch" aria-label="Language switcher">
+        <button class="lang-btn active" data-lang="ua">UA</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-bg"></div>
+    <div class="hero-orbit orbit-1"></div>
+    <div class="hero-orbit orbit-2"></div>
+    <div class="hero-orbit orbit-3"></div>
+
+    <div class="hero-content">
+      <p class="hero-tagline" data-i18n="hero.tagline"></p>
+      <h1 class="hero-title" data-i18n="hero.title"></h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
+
+      <div class="hero-cta">
+        <a href="#story" class="primary-btn" data-i18n="hero.ctaPrimary"></a>
+        <button type="button" class="ghost-btn scroll-to-story" data-i18n="hero.ctaSecondary"></button>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span></span>
+      <span></span>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="section reveal" id="story">
+    <div class="section-inner">
+      <h2 data-i18n="story.title"></h2>
+      <p class="lead" data-i18n="story.lead"></p>
+
+      <div class="grid two-cols">
+        <div class="card glass reveal">
+          <h3 data-i18n="story.block1.title"></h3>
+          <p class="multiline" data-i18n="story.block1.text"></p>
+        </div>
+        <div class="card glass reveal">
+          <h3 data-i18n="story.block2.title"></h3>
+          <p class="multiline" data-i18n="story.block2.text"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE WAR -->
+  <section class="section section-dark reveal" id="before">
+    <div class="section-inner">
+      <div class="section-label" data-i18n="before.label"></div>
+      <h2 data-i18n="before.title"></h2>
+
+      <div class="grid two-cols">
+        <div class="card soft reveal">
+          <p class="multiline" data-i18n="before.text"></p>
+        </div>
+        <div class="vertical-timeline">
+          <div class="timeline-item reveal">
+            <div class="dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year" data-i18n="before.timeline1.year"></span>
+              <p class="multiline" data-i18n="before.timeline1.text"></p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year" data-i18n="before.timeline2.year"></span>
+              <p class="multiline" data-i18n="before.timeline2.text"></p>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-year" data-i18n="before.timeline3.year"></span>
+              <p class="multiline" data-i18n="before.timeline3.text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAR / DESTRUCTION -->
+  <section class="section reveal" id="war">
+    <div class="section-inner">
+      <div class="section-label accent" data-i18n="war.label"></div>
+      <h2 data-i18n="war.title"></h2>
+
+      <div class="grid two-cols reverse">
+        <div class="card alert reveal">
+          <p class="multiline" data-i18n="war.text1"></p>
+        </div>
+        <div class="card dark-highlight reveal">
+          <p class="multiline" data-i18n="war.text2"></p>
+          <blockquote data-i18n="war.quote"></blockquote>
+        </div>
+      </div>
+
+      <div class="info-banner reveal">
+        <span class="pill" data-i18n="war.banner.label"></span>
+        <p class="multiline" data-i18n="war.banner.text"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT / DIGITAL MEMORIAL -->
+  <section class="section section-dark reveal" id="project">
+    <div class="section-inner">
+      <div class="section-label" data-i18n="project.label"></div>
+      <h2 data-i18n="project.title"></h2>
+
+      <div class="grid three-cols">
+        <div class="card glass reveal">
+          <h3 data-i18n="project.block1.title"></h3>
+          <p class="multiline" data-i18n="project.block1.text"></p>
+        </div>
+        <div class="card glass reveal">
+          <h3 data-i18n="project.block2.title"></h3>
+          <p class="multiline" data-i18n="project.block2.text"></p>
+        </div>
+        <div class="card glass reveal">
+          <h3 data-i18n="project.block3.title"></h3>
+          <p class="multiline" data-i18n="project.block3.text"></p>
+        </div>
+      </div>
+
+      <div class="grid two-cols stack-on-mobile">
+        <div class="card soft reveal">
+          <h3 data-i18n="project.info.title"></h3>
+          <ul class="bullet-list">
+            <li data-i18n="project.info.item1"></li>
+            <li data-i18n="project.info.item2"></li>
+            <li data-i18n="project.info.item3"></li>
+          </ul>
+        </div>
+        <div class="card soft reveal">
+          <h3 data-i18n="project.qr.title"></h3>
+          <p class="multiline" data-i18n="project.qr.text"></p>
+          <div class="qr-placeholder">
+            <span data-i18n="project.qr.placeholder"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATUS -->
+  <section class="section reveal" id="status">
+    <div class="section-inner">
+      <div class="section-label subtle" data-i18n="status.label"></div>
+      <h2 data-i18n="status.title"></h2>
+      <div class="card soft reveal">
+        <p class="multiline" data-i18n="status.text1"></p>
+        <p class="multiline" data-i18n="status.text2"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p data-i18n="footer.text"></p>
+      <p class="footer-note" data-i18n="footer.note"></p>
+    </div>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
